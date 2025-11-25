@@ -1,10 +1,15 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
 /NET22App/.vs/NET22App
 /NET22App/bin/Debug/net8.0
 /NET22App/obj
-/NET22App/NET22App.sln
+
 /NET22App/NET22App.csproj
+/NET22App/NET22App.sln
+/NET22App/.vs/ProjectEvaluation
+/NET22App2/.vs/NET22App2
+/NET22App2/obj
+/NET22App2/NET22App2.csproj
+/NET22App2/NET22App2.sln
