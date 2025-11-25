@@ -8,3 +8,7 @@
 /NET22App/obj
 /NET22App/NET22App.sln
 /NET22App/NET22App.csproj
+/NET22App/.vs/ProjectEvaluation
+/NET22App2/.vs
+/NET22App2/obj
+*.csproj
