@@ -9,8 +9,6 @@ namespace hw12_exception
     {
         public static bool ValidateAuthorization(string Login, string Password, string ConfirmPassword)
         {
-            bool result = false;
-
             if (!ValidateLoginInput(Login))
             {
                 throw new WrongLoginException("Incorrect login."); 
@@ -21,9 +19,7 @@ namespace hw12_exception
                 throw new WrongPasswordException("Incorrect password."); 
             }
 
-            result = true;
-
-            return result;
+            return true;
         }
 
         private static bool ValidateLoginInput(string input)
