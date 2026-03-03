@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Squad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>0</Size>
+  <SquadName>Squad1</SquadName>
+  <Soldiers>
+    <Soldier>
+      <FirstName>Ivan</FirstName>
+      <LastName>Ivanov</LastName>
+      <Age>24</Age>
+    </Soldier>
+    <Soldier>
+      <FirstName>Petr</FirstName>
+      <LastName>Petrovich</LastName>
+      <Age>25</Age>
+    </Soldier>
+    <Soldier>
+      <FirstName>FirstName1</FirstName>
+      <LastName>LastName1</LastName>
+      <Age>26</Age>
+    </Soldier>
+    <Soldier>
+      <FirstName>FirstName2</FirstName>
+      <LastName>LastName2</LastName>
+      <Age>24</Age>
+    </Soldier>
+    <Soldier>
+      <FirstName>FirstName3</FirstName>
+      <LastName>LastName3</LastName>
+      <Age>23</Age>
+    </Soldier>
+    <Soldier>
+      <FirstName>FirstName4</FirstName>
+      <LastName>LastName4</LastName>
+      <Age>22</Age>
+    </Soldier>
+  </Soldiers>
+</Squad>

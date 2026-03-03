@@ -1,0 +1,35 @@
+{
+  "SoldiersNumber": 9,
+  "SquadName": "Squad1",
+  "Soldiers": [
+    {
+      "FirstName": "Ivan",
+      "LastName": "Ivanov",
+      "Age": 24
+    },
+    {
+      "FirstName": "Petr",
+      "LastName": "Petrovich",
+      "Age": 25
+    },
+    {
+      "FirstName": "FirstName1",
+      "LastName": "LastName1",
+      "Age": 26
+    },
+    {
+      "FirstName": "FirstName2",
+      "LastName": "LastName2",
+      "Age": 24
+    },
+    {
+      "FirstName": "FirstName3",
+      "LastName": "LastName3",
+      "Age": 23
+    },
+    {
+      "FirstName": "FirstName4",
+      "LastName": "LastName4",
+      "Age": 22
+    }
+  ]
