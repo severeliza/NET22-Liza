@@ -74,6 +74,12 @@
 /task3/obj/Debug/net8.0
 /task3/obj
 /task3
+/hw13/.vs/hw13.slnx
+/hw13/hw13/bin/Debug/net10.0
+/hw13/hw13/obj
+/hw13/hw13.slnx
+/hw13/hw13/notes.txt
+/hw13/hw13/hw13.csproj
 /hw10_delegate/bin/Debug/net8.0
 /hw10_delegate/obj
 /hw10_delegate/hw10_delegate.csproj
@@ -100,3 +106,4 @@
 /ConsoleApp2/obj
 /ConsoleApp2/ConsoleApp2.csproj
 /ConsoleApp2/ConsoleApp2.sln
+/hw13/.vs/ProjectEvaluation
