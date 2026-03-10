@@ -7,8 +7,8 @@ namespace MyMVC.Interfaces
         bool Register(User user);
         bool Login(string username, string password);
         bool UserExists(string username);
-        bool GetCurrentUsername();
-        bool Logout();
+        string GetCurrentUsername();
+        void Logout();
         bool IsAuthenticated();
 
     }

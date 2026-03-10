@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddTransient<ISumService, SumService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
