@@ -1,0 +1,28 @@
+﻿@model MyMVC.VM.ProductVM
+
+<div style="display: flex;">
+    <div style="flex: 1; padding: 10px; border-radius: 15px;">
+        <h1>Warehouse</h1>
+        <ul>
+            @foreach (var p in Model.ProductsList)
+            {
+                <a asp-controller="Product" asp-action="Index" asp-route-id="@p.Id">
+                <li>@p.Id. @p.Name / @p.Category </li>
+                </a>
+            }
+        </ul>
+    </div>
+   
+    <div style="flex: 1;">
+        @if (Model.SelectedProduct != null)
+        {
+            @await Html.PartialAsync("ProductInfo")
+        }
+    </div>
+    
+</div>
+
+<h2>Add new product</h2>
+<form asp-controller="Product" asp-action="AddProduct" method="post">
+    <button type="submit" class="btn btn-light rounded-pill px-3"> + </button>
+</form>
