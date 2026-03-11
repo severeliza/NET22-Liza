@@ -1,0 +1,13 @@
+﻿@model MyMVC.Models.Product
+
+<form asp-controller="Product" asp-action="SaveProduct" method="post">
+    <div style="display: flex; flex-direction: column; width: 40%;">
+
+        <h3>Add a new product:</h3>
+        <input style="margin: 10px;" type="text" name="newProduct.Name" value="@Model?.Name" placeholder="Product name" />
+        <input style="margin: 10px;" type="text" name="newProduct.Price" value="@Model?.Price" placeholder="Price" />
+
+        <button style="margin: 10px;" type="submit" class="btn btn-success rounded-pill px-3"> Save </button>
+
+    </div>
+</form>
