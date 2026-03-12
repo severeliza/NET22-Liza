@@ -1,0 +1,12 @@
+﻿<div class="text-center">
+    <h1 class="display-4">Student from Course 1:</h1>
+    <div style="padding:0px 400px; text-align:left;">
+        <ul>
+            @foreach (var s in Model)
+            {
+                <li>@s.FirstName @s.LastName from Group @s.GroupId </li>
+            }
+        </ul>
+    </div>
+    
+</div>

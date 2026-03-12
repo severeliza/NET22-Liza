@@ -1,0 +1,12 @@
+﻿<div>
+    <h1 class="display-4">Students whose names do not begin with the word "Student":</h1>
+    <div style="text-align:left;">
+        <ul>
+            @foreach (var s in Model)
+            {
+                <li>@s.FirstName @s.LastName</li>
+            }
+        </ul>
+    </div>
+    
+</div>
