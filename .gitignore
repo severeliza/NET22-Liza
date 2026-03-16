@@ -151,3 +151,12 @@
 /mvcDBFirst/mvcDBFirst/mvcDBFirst.csproj
 /mvcDBFirst/mvcDBFirst/mvcDBFirst.csproj.user
 /mvcDBFirst/mvcDBFirst.slnx
+/WebAPI
+/mvcDBFirst/WebAPI/bin/Debug/net10.0
+/mvcDBFirst/WebAPI/obj
+/mvcDBFirst/WebAPI/Properties
+/mvcDBFirst/WebAPI/appsettings.Development.json
+/mvcDBFirst/WebAPI/appsettings.json
+/mvcDBFirst/WebAPI/WebAPI.csproj
+/mvcDBFirst/WebAPI/WebAPI.csproj.user
+/mvcDBFirst/WebAPI/WebAPI.http
