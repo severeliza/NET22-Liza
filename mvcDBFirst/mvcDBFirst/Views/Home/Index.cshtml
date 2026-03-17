@@ -1,0 +1,8 @@
+﻿@*@model mvcDBFirst.Models.Player *@
+
+<div class="text-center">
+    @foreach (Player p in @Model)
+    {
+        <p> @p.PlayerName from @p.TeamId</p>
+    }
+</div>
